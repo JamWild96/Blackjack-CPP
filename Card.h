@@ -19,6 +19,7 @@ public:
         std::string suits[] = {"Hearts", "Diamonds", "Clubs", "Spades"};
         std::string ranks[] = {"Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
         std::cout << ranks[rank - 1] << " of " << suits[suit] << std::endl;
+        std::cout << "this game is crazy" << std::endl;
     }
 };
 
